@@ -74,9 +74,6 @@ body {
     margin-top: 16px;
     margin-bottom: 48px;
 }
-img{
-    padding: 0;
-}
 
 .offer-image {
     width: 802.9px;
@@ -84,11 +81,101 @@ img{
     flex-shrink: 0;
     display: block;
     margin: auto
-    
 }
-.offer-title-content{
+.offer-image-new{
+    margin-bottom: 120px;
+}
+
+.offer-title-content {
     align-items: center;
     align-content: center;
 }
 
 /* Welcome section style */
+
+.welcome {
+
+    background-color: #070211;
+    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png'); */
+    background: -webkit-linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    display: block;
+    margin: auto
+    
+}
+
+.welcome-div {
+    display: flex;
+    align-items: center;
+    
+}
+.welcome{
+    border-radius: 16px;
+}
+
+.welcome-title-party {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.welcome-title-party {
+    margin: 126px 0px 24px 126px;
+}
+
+.welcome-peragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+}
+
+.welcome-peragraph {
+    margin: 0px 0px 48px 126px;
+}
+
+.join-btn {
+    margin: 0px 0px 42px 158px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: solid 2px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0);
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background: red;
+    border: none;
+}
+
+.welcome-image-two {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 38px 168px 38px 0px;
+}
+.welcome-image{
+    position: relative;
+    margin: 38px 168px 38px 0px;
+}
