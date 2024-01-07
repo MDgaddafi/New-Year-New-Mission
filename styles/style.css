@@ -6,7 +6,7 @@ body {
 
 /* Header Banner */
 .header {
-    height: 100vh;
+    height: 75vh;
     margin: 0 auto;
 }
 
@@ -14,9 +14,10 @@ body {
     align-items: center;
     margin: 50px 140px;
     padding: 117px 130px;
-    
+
 }
-.contaner-two{
+
+.contaner-two {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -38,3 +39,52 @@ body {
     line-height: 95px;
     margin: 0px 344px 117px 344px;
 }
+
+/* 65% Offer section */
+
+.off-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.off-peragrap {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.off-title-category {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+img{
+    padding: 0;
+}
+
+.offer-image {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    display: block;
+    margin: auto
+    
+}
+.offer-title-content{
+    align-items: center;
+    align-content: center;
+}
+
+/* Welcome section style */
