@@ -11,13 +11,13 @@ body {
 
 /* Header Banner */
 .header {
-    height: 75vh;
+    height: 74vh;
     margin: 0 auto;
 }
 
 .main-conteinar {
     align-items: center;
-    margin: 50px 140px;
+    margin: 40px 140px;
     padding: 117px 130px;
 
 }
@@ -212,6 +212,7 @@ body {
     line-height: 56px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .red-title {
